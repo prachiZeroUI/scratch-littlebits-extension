@@ -1,21 +1,44 @@
-<html>
-<head>
-  <title>Scratch littleBits Extension</title>
-  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/style.css"></link>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scratch-littlebits-extension by prachiZeroUI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Scratch-littlebits-extension</h1>
+      <h2 class="project-tagline">littleBits javascript extension for Scratch 2.0</h2>
+      <a href="https://github.com/prachiZeroUI/scratch-littlebits-extension" class="btn">View on GitHub</a>
+      <a href="https://github.com/prachiZeroUI/scratch-littlebits-extension/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/prachiZeroUI/scratch-littlebits-extension/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p>
+</p>
+  Scratch littleBits Extension
+  
+  
+  
+
+
 
 <div id="header-container">
-  <header>
-    <h1>Scratch littleBits Extension</h1>
-  </header>
+   
+    <h1>
+<a id="scratch-littlebits-extension" class="anchor" href="#scratch-littlebits-extension" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scratch littleBits Extension</h1>
+   
 </div>
 
 <div id="content-container">
 
-  <h1>Contents</h1>
+  <h1>
+<a id="contents" class="anchor" href="#contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contents</h1>
 
   <ul id="nav">
     <li><a href="#quickstart">Quick Start</a></li>
@@ -26,166 +49,203 @@
     <li><a href="#examples">Example Projects</a></li>
   </ul>
 
-  <a name="quickstart" />
-  <h1>Quick Start</h1>
+  <a name="quickstart"></a>
+  <h1>
+<a id="quick-start" class="anchor" href="#quick-start" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Quick Start</h1>
   <p>To use the extension, upload the <a href="http://khanning.github.io/scratch-littlebits-extension/littleBits_Scratch_Extension.ino">littleBits_Scratch_Extension.ino</a> to your littleBits Arduino bit, install the <a href="http://scratch.mit.edu/scratchr2/static/ext/download.html">Scratch Browser Plugin</a> (see notes below <a href="#firefox">for Firefox</a> and <a href="#chrome">for Chrome</a>), and then <a href="http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/littlebits_extension.js">open the littleBits extension on ScratchX.org</a>.</p>
 
-  <a name="intro" />
-  <h1>Introduction</h1>
+  <a name="intro"></a>
+  <h1>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h1>
 
-  <p>This <a target="_new" href="http://scratch.mit.edu">Scratch</a> extension allows you to connect your Scratch projects to the physical world using <a target="_new" href="http://littlebits.cc">littleBits</a>. Using littleBits you can create new ways to interact with Scratch through the use of inputs and outputs. For example, you might rotate the Scratch cat by turning a dimmer, or make a buzzer go off when you score a point in your game. The possibilities are only limited by your imagination!</p>
+  <p>This <a href="http://scratch.mit.edu">Scratch</a> extension allows you to connect your Scratch projects to the physical world using <a href="http://littlebits.cc">littleBits</a>. Using littleBits you can create new ways to interact with Scratch through the use of inputs and outputs. For example, you might rotate the Scratch cat by turning a dimmer, or make a buzzer go off when you score a point in your game. The possibilities are only limited by your imagination!</p>
 
-  <img width="600" src="res/screenshot.png" /><br /><em>Windmill simlulator using littleBits and Scratch.</em>
+  <img width="600" src="res/screenshot.png"><br><em>Windmill simlulator using littleBits and Scratch.</em>
 
-  <a name="equipment" />
-  <h1>Equipment</h1>
+  <a name="equipment"></a>
+  <h1>
+<a id="equipment" class="anchor" href="#equipment" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Equipment</h1>
 
-  <h3>You will need:</h3>
+  <h3>
+<a id="you-will-need" class="anchor" href="#you-will-need" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>You will need:</h3>
   <ul>
-    <li><a target="_new" href="http://littlebits.cc/bits/arduino">littleBits Arduino bit</a></li>
-    <li><a target="_new" href="http://littlebits.cc/shop?filter=Power">littleBits Power bit</a></li>
-    <li>Some littleBits <a target="_new" href="http://littlebits.cc/shop?filter=Input">Inputs</a> and <a target="_new" href="http://littlebits.cc/shop?filter=Output">Outputs</a></li>
+    <li><a href="http://littlebits.cc/bits/arduino">littleBits Arduino bit</a></li>
+    <li><a href="http://littlebits.cc/shop?filter=Power">littleBits Power bit</a></li>
+    <li>Some littleBits <a href="http://littlebits.cc/shop?filter=Input">Inputs</a> and <a href="http://littlebits.cc/shop?filter=Output">Outputs</a>
+</li>
     <li>Micro USB Cable</li>
   </ul>
 
-  <a name="getting-started" />
-  <h1>Getting Started</h1>
+  <a name="getting-started"></a>
+  <h1>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Started</h1>
 
-  <h3>Step 1 - Upload the Firmware</h3>
-  <div class="step">
-    <a name="firmware-codebender" />
-    <div class="toggle-header" onclick="toggleDiv(this, '#firmware-codebender')">
+  <h3>
+<a id="step-1---upload-the-firmware" class="anchor" href="#step-1---upload-the-firmware" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 1 - Upload the Firmware</h3>
+  <div>
+    <a name="firmware-codebender"></a>
+    <div>
       + Using codebender
     </div>
-    <div class="toggle-div" id="firmware-codebender">
+    <div id="firmware-codebender">
       <ol>
-        <li>Install the codebender plugin:<br />On <b>Chrome/Chromium</b>, install the <a  href="https://chrome.google.com/webstore/detail/codebender-app/magknjdfniglanojbpadmpjlglepnlko">codebender app</a> in the Chrome Web Store</a><br />On <b>Firefox</b>, install the <a href="https://codebender.cc/codebender.xpi">codebender Add-on</a></li>
-        <li>(Windows only) install the <a href="https://codebender.cc/drivers/windows-driver-installer.zip">device drivers</a></li>
-        <li>Connect a Power bit to one of the Arduino's input pins and turn on the Power bit.<br /><img width=200 src="res/power-connection.png" /></li>
-        <li>Connect the Arduino to your computer's USB port<br /><img width=200 src="res/usb-connection.png" /></li>
+        <li>Install the codebender plugin:<br>On <b>Chrome/Chromium</b>, install the <a href="https://chrome.google.com/webstore/detail/codebender-app/magknjdfniglanojbpadmpjlglepnlko">codebender app</a> in the Chrome Web Store<br>On <b>Firefox</b>, install the <a href="https://codebender.cc/codebender.xpi">codebender Add-on</a>
+</li>
+        <li>(Windows only) install the <a href="https://codebender.cc/drivers/windows-driver-installer.zip">device drivers</a>
+</li>
+        <li>Connect a Power bit to one of the Arduino's input pins and turn on the Power bit.<br><img width="200" src="res/power-connection.png">
+</li>
+        <li>Connect the Arduino to your computer's USB port<br><img width="200" src="res/usb-connection.png">
+</li>
         <li>Make sure the correct board (Arduino Leonardo) and serial port is selected in the codebender window below and click "Run on Arduino"</li>
       </ol>
-      <p>On <b>Mac</b>, the serial number will be something like <b>/dev/tty.usbmodem-1511</b>.<br />On <b>Windows</b>, the serial number will probably be the highest-numbered COM port.<br />(Or unplug the Arduino, check the menu, and then replug your Arduino and see what new port appears.)
+      <p>On <b>Mac</b>, the serial number will be something like <b>/dev/tty.usbmodem-1511</b>.<br>On <b>Windows</b>, the serial number will probably be the highest-numbered COM port.<br>(Or unplug the Arduino, check the menu, and then replug your Arduino and see what new port appears.)
 
-      <iframe style="height: 510px; width: 100%; margin: 10px 0 10px;" allowTransparency="true" src="https://codebender.cc/embed/sketch:119499" frameborder="0"></iframe>
-    </div>
+      
+    </p>
+</div>
 
-    <a name="firmware-arduino" />
-    <div class="toggle-header" onclick="toggleDiv(this, '#firmware-arduino')">
+    <a name="firmware-arduino"></a>
+    <div>
       + Using the Arduino IDE
     </div>
-    <div class="toggle-div" id="firmware-arduino">
+    <div id="firmware-arduino">
       <ol>
         <li>Download and install the <a href="http://www.arduino.cc/en/Main/Software">Arduino software</a> (<a href="http://www.arduino.cc/en/Guide/Windows">Windows instructions</a>, <a href="http://www.arduino.cc/en/Guide/MacOSX">Mac instructions</a>)</li>
-        <li>Connect a Power bit to one of the Arduino's input pins and turn on the Power bit.<br /><img width=200 src="res/power-connection.png" /></li>
-        <li>Connect the Arduino to your computer's USB port<br /><img width=200 src="res/usb-connection.png" /></li>
-        <li>Open the <a href="http://khanning.github.io/scratch-littlebits-extension/littleBits_Scratch_Extension.ino">littleBits_Scratch_Extension.ino</a> firmware in the Arduino software<br /><img src="res/arduino.png" /></li>
-        <li>Select Arduino Leonardo from the <b>Tools &gt; Board</b> menu<br /><img src="res/arduino-board.png" /></li>
-        <li>Select your serial port from the <b>Tools &gt; Port</b> menu.<br />On Mac, it's something like <b>/dev/tty.usbmodem-1511</b>.<br />On Windows, it's probably the highest-numbered COM port.<br />(Or unplug the Arduino, check the menu, and then replug your Arduino and see what new port appears.)<br /><img src="res/arduino-port.png" /></li>
-        <li>Click the upload button<br /><img src="res/arduino-upload.png" /></li>
+        <li>Connect a Power bit to one of the Arduino's input pins and turn on the Power bit.<br><img width="200" src="res/power-connection.png">
+</li>
+        <li>Connect the Arduino to your computer's USB port<br><img width="200" src="res/usb-connection.png">
+</li>
+        <li>Open the <a href="http://khanning.github.io/scratch-littlebits-extension/littleBits_Scratch_Extension.ino">littleBits_Scratch_Extension.ino</a> firmware in the Arduino software<br><img src="res/arduino.png">
+</li>
+        <li>Select Arduino Leonardo from the <b>Tools &gt; Board</b> menu<br><img src="res/arduino-board.png">
+</li>
+        <li>Select your serial port from the <b>Tools &gt; Port</b> menu.<br>On Mac, it's something like <b>/dev/tty.usbmodem-1511</b>.<br>On Windows, it's probably the highest-numbered COM port.<br>(Or unplug the Arduino, check the menu, and then replug your Arduino and see what new port appears.)<br><img src="res/arduino-port.png">
+</li>
+        <li>Click the upload button<br><img src="res/arduino-upload.png">
+</li>
       </ol>
     </div>
   </div>
 
-  <h3>Step 2 - Install the Scratch Extensions Browser Plugin</h3>
-  <div class="step">
-    Download and install the <a href="https://scratch.mit.edu/info/ext_download/">Scratch Extensions Browser Plugin</a></li>
+  <h3>
+<a id="step-2---install-the-scratch-extensions-browser-plugin" class="anchor" href="#step-2---install-the-scratch-extensions-browser-plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 2 - Install the Scratch Extensions Browser Plugin</h3>
+  <div>
+    Download and install the <a href="https://scratch.mit.edu/info/ext_download/">Scratch Extensions Browser Plugin</a>
   </div>
 
-  <h3>Step 3 - Load the littleBits extension on ScratchX</h3>
-  <div class="step">
+  <h3>
+<a id="step-3---load-the-littlebits-extension-on-scratchx" class="anchor" href="#step-3---load-the-littlebits-extension-on-scratchx" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 3 - Load the littleBits extension on ScratchX</h3>
+  <div>
     <p>Launch the extension by going to the following URL:</p>
-    <a target="_new" href="http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/littlebits_extension.js ">http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/littlebits_extension.js</a>
-    <p><a name="firefox" />On <b>Firefox</b>, you might see "Allow scratchx.org to run "Scratch Device?". Click "Allow...".<br /><img width=700 src="res/firefox-plugin.png" /></p>
-    <p>You might see another message, "Allow scratchx.org to run plugins?". Set both Adobe Flash and Scratch Device to "Allow and Remember" and click okay.<br /><img src="res/firefox-plugin2.png" /></p>
-    <p><a name="chrome" />On <b>Chrome</b>, you'll need to enable NPAPI plugins. Go to <a href="chrome://flags/#enable-npapi">chrome://flags/#enable-npapi</a> and click enable:<br /><img src="res/chrome-npapi.png" /></p>
-    <p>Then, click "Relaunch Now" button:<br /><img src="res/chrome-npapi3.png" /></p>
-    <p>Then, when you go to ScratchX.org, you should see a puzzle piece icon with an X on it: <img src="res/chrome-plugin-broken.png" width="25" />. Click on it and select "Always allow plug-ins on scratchx.org":<br /><img src="res/chrome-plugin-enable.png" /></p>
+    <a href="http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/littlebits_extension.js%20">http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/littlebits_extension.js</a>
+    <p><a name="firefox"></a>On <b>Firefox</b>, you might see "Allow scratchx.org to run "Scratch Device?". Click "Allow...".<br><img width="700" src="res/firefox-plugin.png"></p>
+    <p>You might see another message, "Allow scratchx.org to run plugins?". Set both Adobe Flash and Scratch Device to "Allow and Remember" and click okay.<br><img src="res/firefox-plugin2.png"></p>
+    <p><a name="chrome"></a>On <b>Chrome</b>, you'll need to enable NPAPI plugins. Go to chrome://flags/#enable-npapi and click enable:<br><img src="res/chrome-npapi.png"></p>
+    <p>Then, click "Relaunch Now" button:<br><img src="res/chrome-npapi3.png"></p>
+    <p>Then, when you go to ScratchX.org, you should see a puzzle piece icon with an X on it: <img src="res/chrome-plugin-broken.png" width="25">. Click on it and select "Always allow plug-ins on scratchx.org":<br><img src="res/chrome-plugin-enable.png"></p>
     <p>When you see the indicator light in the "More Blocks" tab turn green your ready to start using the extension!</p>
-    <img width=200 src="res/connected.png" alt="Green indicator light" />
+    <img width="200" src="res/connected.png" alt="Green indicator light">
   </div>
 
-  <h3>Step 4 - Have fun and be creative!</h3>
-  <div class="step">
-    <h4>A Few Additional Notes:</h4>
-    <p>Some of the input bits need to have power going through them. The <a target="_new" href="http://littlebits.cc/bits/fork">Fork bit</a> is very useful for running power to multiple inputs.</p>
-    <p>If the Arduino bit loses it's connection to the Power bit you will have to wait a few seconds while it reconnects itself with Scratch. The littleBits <a target="_new" href="http://littlebits.cc/accessories/mounting-board">Mounting Boards</a> or these <a target="_new" href="http://www.thingiverse.com/thing:727647">3D printed littleBits sandals</a> are very useful for keeping everything connected.</p>
+  <h3>
+<a id="step-4---have-fun-and-be-creative" class="anchor" href="#step-4---have-fun-and-be-creative" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 4 - Have fun and be creative!</h3>
+  <div>
+    <h4>
+<a id="a-few-additional-notes" class="anchor" href="#a-few-additional-notes" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A Few Additional Notes:</h4>
+    <p>Some of the input bits need to have power going through them. The <a href="http://littlebits.cc/bits/fork">Fork bit</a> is very useful for running power to multiple inputs.</p>
+    <p>If the Arduino bit loses it's connection to the Power bit you will have to wait a few seconds while it reconnects itself with Scratch. The littleBits <a href="http://littlebits.cc/accessories/mounting-board">Mounting Boards</a> or these <a href="http://www.thingiverse.com/thing:727647">3D printed littleBits sandals</a> are very useful for keeping everything connected.</p>
     <p>Now take a look at the <a href="#blocks">Scratch Blocks</a> and the <a href="#examples">example projects</a> to learn how to use the extension.
-  </div>
+  </p>
+</div>
 
-  <a name="blocks" />
-  <h1>Scratch Blocks</h1>
+  <a name="blocks"></a>
+  <h1>
+<a id="scratch-blocks" class="anchor" href="#scratch-blocks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scratch Blocks</h1>
   <p>This is a brief description of each of the Scratch blocks included with the littleBits extension.</p>
-  <br />
+  <br>
 
-  <div class="block">
-  <img height="39" src="res/blocks/writedigital.png" />
+  <div>
+  <img height="39" src="res/blocks/writedigital.png">
   <p>Sets one of the output pins (d1, d5, d7) to on (full power) or off (no power).</p>
   </div>
 
-  <hr />
+  <hr>
 
-  <div class="block">
-  <img height="39" src="res/blocks/writeanalog.png" />
-  <p>Sets one of the PWM output pins (d5, d7) to a value between 0 - 255.<br />0 = no power.<br />255 = full power.</p>
+  <div>
+  <img height="39" src="res/blocks/writeanalog.png">
+  <p>Sets one of the PWM output pins (d5, d7) to a value between 0 - 255.<br>0 = no power.<br>255 = full power.</p>
   </div>
 
-  <hr />
+  <hr>
 
-  <div class="block">
-  <img height="32" src="res/blocks/readdigital.png" />
+  <div>
+  <img height="32" src="res/blocks/readdigital.png">
   <p>Boolean block that returns true if an input pin (d0, a0, a1) is on (receiving voltage greater than 3v) and false if the input pin is off (receiving voltage less than 3v).</p>
   </div>
 
-  <hr />
+  <hr>
 
-  <div class="block">
-  <img height="32" src="res/blocks/readanalog.png" />
+  <div>
+  <img height="32" src="res/blocks/readanalog.png">
   <p>Reads a value from an analog input pin (a0, a1).</p>
   </div>
 
-  <hr />
+  <hr>
 
-  <div class="block">
-  <img height="52" src="res/blocks/whendigital.png" />
+  <div>
+  <img height="52" src="res/blocks/whendigital.png">
   <p>Hat block that executes when an input pin is switched on (receiving a voltage greater than 3v) or off (receiving a voltage less than 3v).</p>
   </div>
 
-  <hr />
+  <hr>
 
-  <div class="block">
-  <img height="52" src="res/blocks/whenanalog.png" />
+  <div>
+  <img height="52" src="res/blocks/whenanalog.png">
   <p>Hat block that executes when an input pin is greater than, less than, or equal to a specified number.</p>
   </div>
 
-  <hr />
+  <hr>
 
-  <div class="block">
-  <img height="32" src="res/blocks/map.png" />
+  <div>
+  <img height="32" src="res/blocks/map.png">
   <p>Maps a value between two ranges of numbers.</p>
   <p>This comes in handy when you're trying to use an input value (0 - 1023) to set an output value (0 - 255)</p>
   </div>
 
-  <a name="examples" />
-  <h1>Example Projects</h1>
+  <a name="examples"></a>
+  <h1>
+<a id="example-projects" class="anchor" href="#example-projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example Projects</h1>
 
   <p>These are some very basic examples of what you can do with the littleBits extension. More advanced examples will be posted soon.</p>
 
   <dl>
-    <dt><a target="_new" href="http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/examples/littleBits%20-%20Move%20with%20Dimmer.sbx">Move with Dimmer</a></dt>
+    <dt><a href="http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/examples/littleBits%20-%20Move%20with%20Dimmer.sbx">Move with Dimmer</a></dt>
     <dd>Move a sprite on the screen using a dimmer input</dd>
-    <br />
-    <dt><a target="_new" href="http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/examples/littleBits%20-%20Output%20from%20Input.sbx">Output from Input</a></dt>
+    <br>
+    <dt><a href="http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/examples/littleBits%20-%20Output%20from%20Input.sbx">Output from Input</a></dt>
     <dd>Use an analog input to write a value to an analog output.</dd>
-    <br />
-    <dt><a target="_new" href="http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/examples/littleBits%20-%20Button%20Say%20Something.sbx">Button Say Something</a></dt>
+    <br>
+    <dt><a href="http://scratchx.org/?url=http://khanning.github.io/scratch-littlebits-extension/examples/littleBits%20-%20Button%20Say%20Something.sbx">Button Say Something</a></dt>
     <dd>Make the sprite say something whenever the button input is pressed.</dd>
-    <br />
+    <br>
   </dl>
   
 </div>
 
-<br />
+<p><br></p>
 
-</body>
+<p>
+</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/prachiZeroUI/scratch-littlebits-extension">Scratch-littlebits-extension</a> is maintained by <a href="https://github.com/prachiZeroUI">prachiZeroUI</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
 </html>
