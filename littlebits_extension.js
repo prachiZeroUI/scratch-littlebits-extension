@@ -20,11 +20,11 @@
   var pingCmd = new Uint8Array(1);
   pingCmd[0] = 1;
 
-  var inputVals = {/* d0: 0, a0: 0, a1: 0 */0: 0};
-  var outputPins = {/* d1: 1, d5: 5, d9: 9 */0: 0};
+  var inputVals = {/* d0: 0, a0: 0, a1: 0 */pin0: 0};
+  var outputPins = {/* d1: 1, d5: 5, d9: 9 */pin0: 0};
 
   function processMsg() {
-    inputVals.0 = storedMsg[0] | (storedMsg[1] << 0x08);
+    inputVals.pin0 = storedMsg[0] | (storedMsg[1] << 0x08);
     // inputVals.a0 = storedMsg[2] | (storedMsg[3] << 0x08);
 //     inputVals.a1 = storedMsg[4] | (storedMsg[5] << 0x08);
   }
