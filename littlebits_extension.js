@@ -20,11 +20,11 @@
   var pingCmd = new Uint8Array(1);
   pingCmd[0] = 1;
 
-  var inputVals = {/* d0: 0, a0: 0, a1: 0 */pin0: 0};
-  var outputPins = {/* d1: 1, d5: 5, d9: 9 */pin0: 0};
+  var inputVals = {gpio1: 1};
+  var outputPins = {gpio0: 0, gpio6: 6};
 
   function processMsg() {
-    inputVals.pin0 = storedMsg[0] | (storedMsg[1] << 0x08);
+    inputVals.gpio1 = storedMsg[0] | (storedMsg[1] << 0x08);
     // inputVals.a0 = storedMsg[2] | (storedMsg[3] << 0x08);
 //     inputVals.a1 = storedMsg[4] | (storedMsg[5] << 0x08);
   }
@@ -164,10 +164,10 @@
       ['r', 'map %n from %n %n to %n %n', 'mapValues', 500, 0, 1023, 0, 255]
     ],
     menus: {
-      outDPins: ['d1', 'd5', 'd9'],
-      outAPins: ['d5', 'd9'],
-      inDPins: ['d0', 'a0', 'a1'],
-      inAPins: ['a0', 'a1'],
+      outDPins: ['gpio0', 'gpio6'],
+      outAPins: [''],
+      inDPins: ['gpio1'],
+      inAPins: [''],
       dOutp: ['on', 'off'],
       ops: ['>', '=', '<']
     },  
